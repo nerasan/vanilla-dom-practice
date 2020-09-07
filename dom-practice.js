@@ -31,3 +31,10 @@ lists[2].style.color = '#ed7117'
 lists[3].style.color = '#ed7117'
 lists[4].style.color = '#ed7117'
 lists[5].style.color = '#ed7117'
+
+const removal = document.querySelector('h4')
+// removal.remove()
+
+// extra step just to style the width of the first image to 100%
+const skylinepic = document.querySelector('img')
+skylinepic.style.width = '100%'
