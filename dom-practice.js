@@ -18,3 +18,6 @@ lists[3].style.color = '#3399ff' // changes the 3rd index of lists which is the 
 lists[5].innerText = 'Jamboree sandwich at the Jamboree'
 
 const newpic = document.createElement('img')
+
+newpic.setAttribute('src', 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Minutemaidpark.jpg')
+newpic.style.width = '100%'
