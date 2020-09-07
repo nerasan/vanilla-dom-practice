@@ -21,3 +21,5 @@ const newpic = document.createElement('img')
 
 newpic.setAttribute('src', 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Minutemaidpark.jpg')
 newpic.style.width = '100%'
+
+document.querySelector('.container').appendChild(newpic)
