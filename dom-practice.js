@@ -7,3 +7,6 @@ const h2 = document.querySelector('h2')
 console.log(h2)
 
 h2.innerText = 'Welcome to Houston, Texas!!!'
+
+const container = document.querySelectorAll('.container')
+console.log(container)
