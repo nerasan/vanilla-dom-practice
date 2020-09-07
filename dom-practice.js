@@ -23,3 +23,11 @@ newpic.setAttribute('src', 'https://upload.wikimedia.org/wikipedia/commons/c/c0/
 newpic.style.width = '100%'
 
 document.querySelector('.container').appendChild(newpic)
+
+// making all <li> into this color -- is there a way to change all in one line? the other method i did was querySelectorAll for <ol> but i would still have to have a line for each <ol> since my site has 2.
+lists[0].style.color = '#ed7117'
+lists[1].style.color = '#ed7117'
+lists[2].style.color = '#ed7117'
+lists[3].style.color = '#ed7117'
+lists[4].style.color = '#ed7117'
+lists[5].style.color = '#ed7117'
