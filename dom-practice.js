@@ -16,3 +16,5 @@ console.log(lists)
 lists[3].style.color = '#3399ff' // changes the 3rd index of lists which is the 4th down the list
 
 lists[5].innerText = 'Jamboree sandwich at the Jamboree'
+
+const newpic = document.createElement('img')
